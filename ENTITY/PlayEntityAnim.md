@@ -5,7 +5,7 @@ ns: ENTITY
 
 ```c
 // 0x7FB218262B810701 0x878753D5
-BOOL PLAY_ENTITY_ANIM(Entity entity, char* animName, char* animDict, float p3, BOOL loop, BOOL stayInAnim, BOOL p6, float delta, Any bitset);
+BOOL PLAY_ENTITY_ANIM(Entity entity, char* animName, char* animDict, float startSpeed, BOOL loop, BOOL stayInAnim, BOOL p6, float delta, Any bitset);
 ```
 
 ```
@@ -19,7 +19,7 @@ The only time bitset has a value is 0x4000 and the only time delta has a value i
 * **entity**: 
 * **animName**: 
 * **animDict**: 
-* **p3**: 
+* **startSpeed**: 
 * **loop**: 
 * **stayInAnim**: 
 * **p6**: 
